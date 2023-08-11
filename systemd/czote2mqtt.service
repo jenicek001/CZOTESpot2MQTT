@@ -1,0 +1,13 @@
+[Unit]
+Description=czote2mqtt daemon
+After=network.target
+
+[Service]
+Type=simple
+User=<your_username>
+WorkingDirectory=/path/to/your/program
+ExecStart=/path/to/your/program/your_program_name
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
