@@ -1,4 +1,4 @@
-# CZOTESpot2MQTT
+# CZOTESpot2MQTT - Work in Progress
 Daemon to download and publish Czech Republic OTE electric energy hourly spot prices in EUR and in CZK
 
 This Python project sniffs hourly spot electricity prices from OTE-CR and the current CZK/EUR exchange rate from Czech National Bank. It then publishes the hourly spot electricity prices in CZK via MQTT. The MQTT communication also supports get functions to receive the current hourly price and lists for the whole day and the next day whenever available.
